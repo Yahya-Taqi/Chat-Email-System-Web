@@ -1,0 +1,9 @@
+- user can send email to users that are registered to '@mufa' domain
+- user can view the sent emails to other users
+- user can view the received emails
+- user can go back to the chat page
+
+===========================================================================
+
+- '@mufa' is the name of our app
+- bullet point number 1 is a must requirement
