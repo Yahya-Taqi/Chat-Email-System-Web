@@ -1,8 +1,0 @@
-- frontend design for:
-                      - Login Page
-                      - Signup Page
-                      - Chat Page
-                      - Email Page
-
-Refer respective backend developer for design constraints
-===========================================================================
