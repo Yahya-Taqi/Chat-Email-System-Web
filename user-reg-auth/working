@@ -1,0 +1,20 @@
+- user can signup
+- user credentials are stored in database
+- user can login
+- system will authenticate the user and take them to an empty page for now.
+
+===========================================================================
+
+- the email of the user will be registered to the domain '@mufa'
+- the user can transition from signup -> login page and vice versa
+- Sign Up Page:
+	- Email input field
+	- Password input field
+	- Button (signup)
+	- Button (Already have an account? login)
+
+- Login Page:
+	- Email input field
+	- Password input field
+	- Button (Login)
+	- Button (Don't have an account? Signup)
