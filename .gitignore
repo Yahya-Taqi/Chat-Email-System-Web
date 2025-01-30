@@ -1,0 +1,16 @@
+# ASP.NET Core-related files
+bin/
+obj/
+*.db
+*.sqlite
+appsettings.json
+appsettings.*.json
+
+# User-specific files
+.vs/
+.idea/
+.vscode/
+
+# Logs
+*.log
+logs/
