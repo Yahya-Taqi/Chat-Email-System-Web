@@ -8,25 +8,27 @@ namespace first.Hubs
     {
         private static ConcurrentDictionary<string, string> connectedUsers = new ConcurrentDictionary<string, string>();
 
-        public async Task SendMessage(string userName, string msg)
+        public async Task SendMessage(string userName, string msg, string targetUser = "All")
         {
-            await Clients.All.SendAsync("ReceiveMessage", userName, msg);
+            if (targetUser == "All")
+            {
+                await Clients.All.SendAsync("ReceiveMessage", userName, msg);
+            }
+            else
+            {
+                string targetConnectionId = connectedUsers.FirstOrDefault(u => u.Value == targetUser).Key;
+                if (!string.IsNullOrEmpty(targetConnectionId))
+                {
+                    await Clients.Client(targetConnectionId).SendAsync("ReceivePrivateMessage", userName, msg);
+                }
+            }
         }
 
         public async Task JoinChat(string userName)
         {
             string connectionId = Context.ConnectionId;
+            connectedUsers[connectionId] = userName;
 
-            // Prevent duplicate users
-            if (!connectedUsers.ContainsKey(connectionId))
-            {
-                connectedUsers[connectionId] = userName;
-            }
-
-            // Debugging log
-            System.Console.WriteLine($"User Joined: {userName}, Connection ID: {connectionId}");
-
-            // Notify all clients about updated user list
             await Clients.All.SendAsync("UpdateUserList", connectedUsers.Values);
         }
 
@@ -34,7 +36,6 @@ namespace first.Hubs
         {
             if (connectedUsers.TryRemove(Context.ConnectionId, out string removedUser))
             {
-                System.Console.WriteLine($"User Left: {removedUser}");
                 await Clients.All.SendAsync("UpdateUserList", connectedUsers.Values);
             }
 

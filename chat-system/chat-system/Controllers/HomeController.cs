@@ -17,5 +17,10 @@ namespace first.Controllers
         {
             return View();
         }
+
+        public IActionResult Email()
+        {
+            return View();
+        }
     }
 }
