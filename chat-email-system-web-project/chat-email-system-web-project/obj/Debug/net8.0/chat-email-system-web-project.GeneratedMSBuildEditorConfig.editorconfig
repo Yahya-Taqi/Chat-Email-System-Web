@@ -1,0 +1,63 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = chat_email_system_web_project
+build_property.RootNamespace = chat_email_system_web_project
+build_property.ProjectDir = C:\Users\mismail\Documents\University\web_development\1.PROJECT\Chat-Email-System-Web\chat-email-system-web-project\chat-email-system-web-project\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mismail\Documents\University\web_development\1.PROJECT\Chat-Email-System-Web\chat-email-system-web-project\chat-email-system-web-project
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/mismail/Documents/University/web_development/1.PROJECT/Chat-Email-System-Web/chat-email-system-web-project/chat-email-system-web-project/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mismail/Documents/University/web_development/1.PROJECT/Chat-Email-System-Web/chat-email-system-web-project/chat-email-system-web-project/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mismail/Documents/University/web_development/1.PROJECT/Chat-Email-System-Web/chat-email-system-web-project/chat-email-system-web-project/Views/Chat/Chat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxDaGF0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mismail/Documents/University/web_development/1.PROJECT/Chat-Email-System-Web/chat-email-system-web-project/chat-email-system-web-project/Views/Chat/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mismail/Documents/University/web_development/1.PROJECT/Chat-Email-System-Web/chat-email-system-web-project/chat-email-system-web-project/Views/Email/Compose.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxcQ29tcG9zZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mismail/Documents/University/web_development/1.PROJECT/Chat-Email-System-Web/chat-email-system-web-project/chat-email-system-web-project/Views/Email/Inbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxcSW5ib3guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mismail/Documents/University/web_development/1.PROJECT/Chat-Email-System-Web/chat-email-system-web-project/chat-email-system-web-project/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mismail/Documents/University/web_development/1.PROJECT/Chat-Email-System-Web/chat-email-system-web-project/chat-email-system-web-project/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mismail/Documents/University/web_development/1.PROJECT/Chat-Email-System-Web/chat-email-system-web-project/chat-email-system-web-project/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mismail/Documents/University/web_development/1.PROJECT/Chat-Email-System-Web/chat-email-system-web-project/chat-email-system-web-project/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mismail/Documents/University/web_development/1.PROJECT/Chat-Email-System-Web/chat-email-system-web-project/chat-email-system-web-project/Views/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-lmaxngyady
