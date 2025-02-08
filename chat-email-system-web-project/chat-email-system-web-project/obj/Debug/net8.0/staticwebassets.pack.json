@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\wwwroot\\css\\waves-light-8k-2560x1600.jpg",
+      "PackagePath": "staticwebassets\\css\\waves-light-8k-2560x1600.jpg"
+    },
+    {
       "Id": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
