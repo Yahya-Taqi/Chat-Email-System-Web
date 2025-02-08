@@ -1,9 +1,0 @@
-- user can view all of the online users
-- user can select and start a private chat with any online user
-- user can close the chat
-- user's messages (sent and received) are stored in database
-- user can navigate to the email page
-==========================================================================================
-- once the user logs into the platform they must be visible in the list of online users
-- once the user logs out the platform they must not be visible in the list of online users
-- the communication is text based
