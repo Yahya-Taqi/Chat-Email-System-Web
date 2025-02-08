@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\WIZ\\Desktop\\WAD_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA9A883-F615-41B9-8C9B-3678ABD97E11}|WAD_Project\\WAD_Project.csproj|C:\\Users\\WIZ\\Desktop\\WAD_Project\\wad_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FA9A883-F615-41B9-8C9B-3678ABD97E11}|WAD_Project\\WAD_Project.csproj|solutionrelative:wad_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA9A883-F615-41B9-8C9B-3678ABD97E11}|WAD_Project\\WAD_Project.csproj|c:\\users\\wiz\\desktop\\wad_project\\wad_project\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA9A883-F615-41B9-8C9B-3678ABD97E11}|WAD_Project\\WAD_Project.csproj|solutionrelative:wad_project\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA9A883-F615-41B9-8C9B-3678ABD97E11}|WAD_Project\\WAD_Project.csproj|C:\\Users\\WIZ\\Desktop\\WAD_Project\\wad_project\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FA9A883-F615-41B9-8C9B-3678ABD97E11}|WAD_Project\\WAD_Project.csproj|solutionrelative:wad_project\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA9A883-F615-41B9-8C9B-3678ABD97E11}|WAD_Project\\WAD_Project.csproj|C:\\Users\\WIZ\\Desktop\\WAD_Project\\wad_project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA9A883-F615-41B9-8C9B-3678ABD97E11}|WAD_Project\\WAD_Project.csproj|solutionrelative:wad_project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA9A883-F615-41B9-8C9B-3678ABD97E11}|WAD_Project\\WAD_Project.csproj|C:\\Users\\WIZ\\Desktop\\WAD_Project\\wad_project\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA9A883-F615-41B9-8C9B-3678ABD97E11}|WAD_Project\\WAD_Project.csproj|solutionrelative:wad_project\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA9A883-F615-41B9-8C9B-3678ABD97E11}|WAD_Project\\WAD_Project.csproj|C:\\Users\\WIZ\\Desktop\\WAD_Project\\wad_project\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FA9A883-F615-41B9-8C9B-3678ABD97E11}|WAD_Project\\WAD_Project.csproj|solutionrelative:wad_project\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA9A883-F615-41B9-8C9B-3678ABD97E11}|WAD_Project\\WAD_Project.csproj|C:\\Users\\WIZ\\Desktop\\WAD_Project\\wad_project\\content\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9FA9A883-F615-41B9-8C9B-3678ABD97E11}|WAD_Project\\WAD_Project.csproj|solutionrelative:wad_project\\content\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA9A883-F615-41B9-8C9B-3678ABD97E11}|WAD_Project\\WAD_Project.csproj|C:\\Users\\WIZ\\Desktop\\WAD_Project\\wad_project\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9FA9A883-F615-41B9-8C9B-3678ABD97E11}|WAD_Project\\WAD_Project.csproj|solutionrelative:wad_project\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\WIZ\\Desktop\\WAD_Project\\WAD_Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WAD_Project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\WIZ\\Desktop\\WAD_Project\\WAD_Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WAD_Project\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T07:10:32.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\WIZ\\Desktop\\WAD_Project\\WAD_Project\\Content\\styles.css",
+              "RelativeDocumentMoniker": "WAD_Project\\Content\\styles.css",
+              "ToolTip": "C:\\Users\\WIZ\\Desktop\\WAD_Project\\WAD_Project\\Content\\styles.css",
+              "RelativeToolTip": "WAD_Project\\Content\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-08T07:09:04.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\WIZ\\Desktop\\WAD_Project\\WAD_Project\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "WAD_Project\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\WIZ\\Desktop\\WAD_Project\\WAD_Project\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "WAD_Project\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T06:26:15.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Signup.cshtml",
+              "DocumentMoniker": "C:\\Users\\WIZ\\Desktop\\WAD_Project\\WAD_Project\\Views\\Auth\\Signup.cshtml",
+              "RelativeDocumentMoniker": "WAD_Project\\Views\\Auth\\Signup.cshtml",
+              "ToolTip": "C:\\Users\\WIZ\\Desktop\\WAD_Project\\WAD_Project\\Views\\Auth\\Signup.cshtml",
+              "RelativeToolTip": "WAD_Project\\Views\\Auth\\Signup.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T06:21:25.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\WIZ\\Desktop\\WAD_Project\\WAD_Project\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WAD_Project\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\WIZ\\Desktop\\WAD_Project\\WAD_Project\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WAD_Project\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T06:04:52.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\WIZ\\Desktop\\WAD_Project\\WAD_Project\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "WAD_Project\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\WIZ\\Desktop\\WAD_Project\\WAD_Project\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "WAD_Project\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T06:04:15.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\WIZ\\Desktop\\WAD_Project\\WAD_Project\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WAD_Project\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\WIZ\\Desktop\\WAD_Project\\WAD_Project\\Models\\User.cs",
+              "RelativeToolTip": "WAD_Project\\Models\\User.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAlwAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T06:03:59.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\WIZ\\Desktop\\WAD_Project\\WAD_Project\\Content\\Site.css",
+              "RelativeDocumentMoniker": "WAD_Project\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\WIZ\\Desktop\\WAD_Project\\WAD_Project\\Content\\Site.css",
+              "RelativeToolTip": "WAD_Project\\Content\\Site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-08T05:41:58.755Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
