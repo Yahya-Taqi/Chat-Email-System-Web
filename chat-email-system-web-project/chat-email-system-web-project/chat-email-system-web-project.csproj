@@ -13,4 +13,10 @@
     <Folder Include="Models\SignupLogin\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.66" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Protocols.Json" Version="9.0.1" />
+  </ItemGroup>
+
 </Project>

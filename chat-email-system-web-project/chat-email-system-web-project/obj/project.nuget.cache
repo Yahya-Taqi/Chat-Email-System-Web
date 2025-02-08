@@ -1,8 +1,26 @@
 {
   "version": 2,
-  "dgSpecHash": "NGuCW/wWsmk=",
+  "dgSpecHash": "YiuRG+nVZQY=",
   "success": true,
   "projectFilePath": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\chat-email-system-web-project.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mismail\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
+    "C:\\Users\\mismail\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.3.0\\microsoft.aspnetcore.authorization.2.3.0.nupkg.sha512",
+    "C:\\Users\\mismail\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\9.0.1\\microsoft.aspnetcore.connections.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\mismail\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\9.0.1\\microsoft.aspnetcore.signalr.common.9.0.1.nupkg.sha512",
+    "C:\\Users\\mismail\\.nuget\\packages\\microsoft.aspnetcore.signalr.core\\1.2.0\\microsoft.aspnetcore.signalr.core.1.2.0.nupkg.sha512",
+    "C:\\Users\\mismail\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\9.0.1\\microsoft.aspnetcore.signalr.protocols.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\mismail\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.1\\microsoft.bcl.asyncinterfaces.9.0.1.nupkg.sha512",
+    "C:\\Users\\mismail\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.1\\microsoft.extensions.dependencyinjection.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\mismail\\.nuget\\packages\\microsoft.extensions.features\\9.0.1\\microsoft.extensions.features.9.0.1.nupkg.sha512",
+    "C:\\Users\\mismail\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\mismail\\.nuget\\packages\\microsoft.extensions.options\\9.0.1\\microsoft.extensions.options.9.0.1.nupkg.sha512",
+    "C:\\Users\\mismail\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.1\\microsoft.extensions.primitives.9.0.1.nupkg.sha512",
+    "C:\\Users\\mismail\\.nuget\\packages\\system.io.pipelines\\9.0.1\\system.io.pipelines.9.0.1.nupkg.sha512",
+    "C:\\Users\\mismail\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\mismail\\.nuget\\packages\\system.text.encodings.web\\9.0.1\\system.text.encodings.web.9.0.1.nupkg.sha512",
+    "C:\\Users\\mismail\\.nuget\\packages\\system.text.json\\9.0.1\\system.text.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\mismail\\.nuget\\packages\\system.threading.channels\\8.0.0\\system.threading.channels.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

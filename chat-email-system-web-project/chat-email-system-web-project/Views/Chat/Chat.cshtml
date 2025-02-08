@@ -1,5 +1,223 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Chat Page";
 }
+
+<!-- Bootstrap and SignalR -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .chat-container {
+        display: flex;
+        height: 80vh;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .users-panel {
+        width: 25%;
+        background-color: #343a40;
+        color: white;
+        padding: 20px;
+        overflow-y: auto;
+        height: 80vh;
+    }
+
+        .users-panel h4 {
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+        }
+
+    .messages-panel {
+        width: 75%;
+        padding: 20px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .message-box {
+        flex-grow: 1;
+        overflow-y: auto;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        height: 60vh;
+    }
+
+    .input-group {
+        margin-top: 10px;
+    }
+
+    .header {
+        background-color: #007bff;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .users-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+        .users-list li {
+            padding: 10px;
+            border-bottom: 1px solid #495057;
+            cursor: pointer;
+        }
+
+            .users-list li:hover {
+                background-color: #495057;
+            }
+</style>
+
+<div class="container mt-4">
+    <div class="header">
+        <div>FREE NODE</div>
+        <button class="btn btn-light" onclick="window.location.href='/Email/EmailPage';">Send Email</button>
+    </div>
+
+    <div class="chat-container mt-3">
+
+        <!-- Left Panel: Users List -->
+        <div class="users-panel">
+            <h4>Users</h4>
+            <ul id="usersList" class="users-list"></ul>
+        </div>
+
+        <!-- Right Panel: Messages -->
+        <div class="messages-panel">
+            <div class="message-box" id="messagesList"></div>
+
+            <!-- Message Input -->
+            <div class="input-group">
+                <input type="text" class="form-control" id="message" placeholder="Type a message...">
+                <button class="btn btn-primary" id="sendButton">Send</button>
+            </div>
+
+            <!-- Chat Mode Selection -->
+            <div class="d-flex justify-content-between mt-2">
+                <button class="btn btn-secondary" id="publicChat">Public Chat</button>
+                <button class="btn btn-info" id="privateChat">Private Chat</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    "use strict";
+    var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+    var username = "";
+    var targetUser = "All"; // Default to public chat
+
+    document.getElementById("sendButton").disabled = true;
+
+    // Receive Public Messages
+    connection.on("ReceiveMessage", function (user, message) {
+        displayMessage(user, message, false);
+    });
+
+    // Receive Private Messages
+    connection.on("ReceivePrivateMessage", function (user, message) {
+        displayMessage(user, message, true);
+    });
+
+    function displayMessage(user, message, isPrivate) {
+        var encodedMsg = `<strong>${user}:</strong> ${message}`;
+        var div = document.createElement("div");
+        div.classList.add("alert", isPrivate ? "alert-warning" : "alert-secondary", "mt-2");
+        div.innerHTML = encodedMsg;
+        document.getElementById("messagesList").appendChild(div);
+    }
+
+    // Update user list and make usernames clickable
+    connection.on("UpdateUserList", function (users) {
+        console.log("User list updated:", users);
+        var usersList = document.getElementById("usersList");
+        usersList.innerHTML = ""; // Clear previous list
+
+        users.forEach(user => {
+            var li = document.createElement("li");
+            li.classList.add("list-group-item", "bg-dark", "text-white", "border-0", "py-2", "user-item");
+            li.textContent = user;
+
+            li.addEventListener("click", function () {
+                targetUser = user;
+                alert(`Now chatting privately with ${user}`);
+            });
+
+            usersList.appendChild(li);
+        });
+    });
+
+    connection.start()
+        .then(function () {
+            console.log("Connected to SignalR Hub");
+            document.getElementById("sendButton").disabled = false;
+            SetUsername();
+        })
+        .catch(function (err) {
+            console.error("Connection error:", err.toString());
+        });
+
+    // Send message
+    document.getElementById("sendButton").addEventListener("click", function (event) {
+        var message = document.getElementById("message").value;
+        if (!message.trim()) return;
+
+        connection.invoke("SendMessage", username, message, targetUser)
+            .then(function () {
+                document.getElementById("message").value = "";
+            })
+            .catch(function (err) {
+                console.error(err.toString());
+            });
+
+        event.preventDefault();
+    });
+
+    // Set username and join chat
+    function SetUsername() {
+        var usernameInput = prompt("Enter your username:");
+        if (!usernameInput) return;
+        username = usernameInput;
+
+        console.log("Joining chat as:", username);
+
+        connection.invoke("JoinChat", username)
+            .then(function () {
+                console.log("Successfully joined chat:", username);
+            })
+            .catch(function (err) {
+                console.error("Error joining chat:", err.toString());
+            });
+    }
+
+    // Toggle between public and private chat
+    document.getElementById("publicChat").addEventListener("click", function () {
+        targetUser = "All";
+        alert("Switched to Public Chat");
+    });
+
+    document.getElementById("privateChat").addEventListener("click", function () {
+        if (targetUser === "All") {
+            alert("Select a user from the list to start a private chat.");
+        } else {
+            alert(`Switched to private chat with ${targetUser}`);
+        }
+    });
+
+</script>

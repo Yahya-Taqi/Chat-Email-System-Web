@@ -4,12 +4,7 @@ namespace chat_email_system_web_project.Controllers.EmailSystem
 {
     public class EmailController : Controller
     {
-        public IActionResult Inbox()
-        {
-            return View();
-        }
-
-        public IActionResult Compose()
+        public IActionResult EmailPage()
         {
             return View();
         }

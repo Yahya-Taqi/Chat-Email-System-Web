@@ -30,16 +30,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxDaGF0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mismail/Documents/University/web_development/1.PROJECT/Chat-Email-System-Web/chat-email-system-web-project/chat-email-system-web-project/Views/Chat/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mismail/Documents/University/web_development/1.PROJECT/Chat-Email-System-Web/chat-email-system-web-project/chat-email-system-web-project/Views/Email/Compose.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxcQ29tcG9zZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mismail/Documents/University/web_development/1.PROJECT/Chat-Email-System-Web/chat-email-system-web-project/chat-email-system-web-project/Views/Email/Inbox.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxcSW5ib3guY3NodG1s
+[C:/Users/mismail/Documents/University/web_development/1.PROJECT/Chat-Email-System-Web/chat-email-system-web-project/chat-email-system-web-project/Views/Email/EmailPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxcRW1haWxQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mismail/Documents/University/web_development/1.PROJECT/Chat-Email-System-Web/chat-email-system-web-project/chat-email-system-web-project/Views/Shared/Error.cshtml]

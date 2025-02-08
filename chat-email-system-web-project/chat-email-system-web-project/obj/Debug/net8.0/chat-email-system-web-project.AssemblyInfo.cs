@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("chat-email-system-web-project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13e9af5433761beb0496a5872432b6c3f645f4ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f213949b812c58815742f25d83cb5b2d7cc9c8d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("chat-email-system-web-project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("chat-email-system-web-project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

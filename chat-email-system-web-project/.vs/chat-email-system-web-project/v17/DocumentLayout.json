@@ -1,12 +1,156 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37783D42-590E-429B-B098-08AEF5436E7B}|chat-email-system-web-project\\chat-email-system-web-project.csproj|c:\\users\\mismail\\documents\\university\\web_development\\1.project\\chat-email-system-web\\chat-email-system-web-project\\chat-email-system-web-project\\views\\email\\emailpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37783D42-590E-429B-B098-08AEF5436E7B}|chat-email-system-web-project\\chat-email-system-web-project.csproj|solutionrelative:chat-email-system-web-project\\views\\email\\emailpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37783D42-590E-429B-B098-08AEF5436E7B}|chat-email-system-web-project\\chat-email-system-web-project.csproj|c:\\users\\mismail\\documents\\university\\web_development\\1.project\\chat-email-system-web\\chat-email-system-web-project\\chat-email-system-web-project\\controllers\\chatsystem\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37783D42-590E-429B-B098-08AEF5436E7B}|chat-email-system-web-project\\chat-email-system-web-project.csproj|solutionrelative:chat-email-system-web-project\\controllers\\chatsystem\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37783D42-590E-429B-B098-08AEF5436E7B}|chat-email-system-web-project\\chat-email-system-web-project.csproj|c:\\users\\mismail\\documents\\university\\web_development\\1.project\\chat-email-system-web\\chat-email-system-web-project\\chat-email-system-web-project\\views\\chat\\chat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37783D42-590E-429B-B098-08AEF5436E7B}|chat-email-system-web-project\\chat-email-system-web-project.csproj|solutionrelative:chat-email-system-web-project\\views\\chat\\chat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37783D42-590E-429B-B098-08AEF5436E7B}|chat-email-system-web-project\\chat-email-system-web-project.csproj|c:\\users\\mismail\\documents\\university\\web_development\\1.project\\chat-email-system-web\\chat-email-system-web-project\\chat-email-system-web-project\\controllers\\emailsystem\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37783D42-590E-429B-B098-08AEF5436E7B}|chat-email-system-web-project\\chat-email-system-web-project.csproj|solutionrelative:chat-email-system-web-project\\controllers\\emailsystem\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37783D42-590E-429B-B098-08AEF5436E7B}|chat-email-system-web-project\\chat-email-system-web-project.csproj|c:\\users\\mismail\\documents\\university\\web_development\\1.project\\chat-email-system-web\\chat-email-system-web-project\\chat-email-system-web-project\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37783D42-590E-429B-B098-08AEF5436E7B}|chat-email-system-web-project\\chat-email-system-web-project.csproj|solutionrelative:chat-email-system-web-project\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37783D42-590E-429B-B098-08AEF5436E7B}|chat-email-system-web-project\\chat-email-system-web-project.csproj|c:\\users\\mismail\\documents\\university\\web_development\\1.project\\chat-email-system-web\\chat-email-system-web-project\\chat-email-system-web-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37783D42-590E-429B-B098-08AEF5436E7B}|chat-email-system-web-project\\chat-email-system-web-project.csproj|solutionrelative:chat-email-system-web-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37783D42-590E-429B-B098-08AEF5436E7B}|chat-email-system-web-project\\chat-email-system-web-project.csproj|c:\\users\\mismail\\documents\\university\\web_development\\1.project\\chat-email-system-web\\chat-email-system-web-project\\chat-email-system-web-project\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37783D42-590E-429B-B098-08AEF5436E7B}|chat-email-system-web-project\\chat-email-system-web-project.csproj|solutionrelative:chat-email-system-web-project\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37783D42-590E-429B-B098-08AEF5436E7B}|chat-email-system-web-project\\chat-email-system-web-project.csproj|c:\\users\\mismail\\documents\\university\\web_development\\1.project\\chat-email-system-web\\chat-email-system-web-project\\chat-email-system-web-project\\views\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37783D42-590E-429B-B098-08AEF5436E7B}|chat-email-system-web-project\\chat-email-system-web-project.csproj|solutionrelative:chat-email-system-web-project\\views\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\Views\\Email\\EmailPage.cshtml",
+              "RelativeDocumentMoniker": "chat-email-system-web-project\\Views\\Email\\EmailPage.cshtml",
+              "ToolTip": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\Views\\Email\\EmailPage.cshtml",
+              "RelativeToolTip": "chat-email-system-web-project\\Views\\Email\\EmailPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T17:27:45.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\Controllers\\EmailSystem\\EmailController.cs",
+              "RelativeDocumentMoniker": "chat-email-system-web-project\\Controllers\\EmailSystem\\EmailController.cs",
+              "ToolTip": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\Controllers\\EmailSystem\\EmailController.cs",
+              "RelativeToolTip": "chat-email-system-web-project\\Controllers\\EmailSystem\\EmailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T17:26:38.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "chat-email-system-web-project\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "chat-email-system-web-project\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T16:10:08.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "chat-email-system-web-project\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "chat-email-system-web-project\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T16:01:11.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\Views\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "chat-email-system-web-project\\Views\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\Views\\_Layout.cshtml",
+              "RelativeToolTip": "chat-email-system-web-project\\Views\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T15:56:29.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\Program.cs",
+              "RelativeDocumentMoniker": "chat-email-system-web-project\\Program.cs",
+              "ToolTip": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\Program.cs",
+              "RelativeToolTip": "chat-email-system-web-project\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwB8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T15:53:13.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Chat.cshtml",
+              "DocumentMoniker": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\Views\\Chat\\Chat.cshtml",
+              "RelativeDocumentMoniker": "chat-email-system-web-project\\Views\\Chat\\Chat.cshtml",
+              "ToolTip": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\Views\\Chat\\Chat.cshtml",
+              "RelativeToolTip": "chat-email-system-web-project\\Views\\Chat\\Chat.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T15:50:01.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\Controllers\\ChatSystem\\ChatController.cs",
+              "RelativeDocumentMoniker": "chat-email-system-web-project\\Controllers\\ChatSystem\\ChatController.cs",
+              "ToolTip": "C:\\Users\\mismail\\Documents\\University\\web_development\\1.PROJECT\\Chat-Email-System-Web\\chat-email-system-web-project\\chat-email-system-web-project\\Controllers\\ChatSystem\\ChatController.cs",
+              "RelativeToolTip": "chat-email-system-web-project\\Controllers\\ChatSystem\\ChatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T15:48:13.114Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
