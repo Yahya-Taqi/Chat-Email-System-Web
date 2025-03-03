@@ -1,5 +1,82 @@
 ﻿@{
     ViewData["Title"] = "Email";
+    var inboxMessages = ViewData["Inbox"] as IEnumerable<chat_email_system_web_project.Controllers.EmailSystem.MessageModel>;
+    var sentMessages = ViewData["SentMessages"] as IEnumerable<chat_email_system_web_project.Controllers.EmailSystem.MessageModel>;
 }
 
-<h1>haha sike you thought</h1>
+<h2>Email System</h2>
+
+@if (!string.IsNullOrEmpty(ViewData["Error"] as string))
+{
+    <p style="color: red; font-weight: bold;">@ViewData["Error"]</p>
+}
+
+@if (!string.IsNullOrEmpty(ViewData["Success"] as string))
+{
+    <p style="color: green; font-weight: bold;">@ViewData["Success"]</p>
+}
+
+<!-- ✅ Send Email Form -->
+<form method="post" asp-action="SendEmail" asp-controller="Email">
+    <label>Recipient Email:</label>
+    <input type="email" name="receiverEmail" required>
+    <br>
+    <label>Message:</label>
+    <textarea name="messageText" required></textarea>
+    <br>
+    <button type="submit">Send Message</button>
+</form>
+
+<hr>
+
+<!-- ✅ Inbox -->
+<h3>Inbox</h3>
+<table border="1">
+    <tr>
+        <th>From</th>
+        <th>Message</th>
+        <th>Time</th>
+    </tr>
+    @if (inboxMessages != null && inboxMessages.Any())
+    {
+        foreach (var msg in inboxMessages)
+        {
+            <tr>
+                <td>@msg.SenderName</td>
+                <td>@msg.MessageText</td>
+                <td>@msg.Timestamp</td>
+            </tr>
+        }
+    }
+    else
+    {
+        <tr><td colspan="3">No messages in your inbox.</td></tr>
+    }
+</table>
+
+<hr>
+
+<!-- ✅ Sent Messages -->
+<h3>Sent Messages</h3>
+<table border="1">
+    <tr>
+        <th>To</th>
+        <th>Message</th>
+        <th>Time</th>
+    </tr>
+    @if (sentMessages != null && sentMessages.Any())
+    {
+        foreach (var msg in sentMessages)
+        {
+            <tr>
+                <td>@msg.ReceiverName</td>
+                <td>@msg.MessageText</td>
+                <td>@msg.Timestamp</td>
+            </tr>
+        }
+    }
+    else
+    {
+        <tr><td colspan="3">No sent messages.</td></tr>
+    }
+</table>

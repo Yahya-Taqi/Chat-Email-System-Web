@@ -21,8 +21,8 @@
 
     .users-panel {
         width: 25%;
-        background-color: #343a40;
-        color: white;
+        background-color: #DCF2F2;
+        color: #07D98C;
         padding: 20px;
         overflow-y: auto;
         height: 80vh;
@@ -56,7 +56,7 @@
     }
 
     .header {
-        background-color: #007bff;
+        background-color: #593128;
         color: white;
         text-align: center;
         padding: 15px;
@@ -120,30 +120,52 @@
 <script>
     "use strict";
     var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
-    var username = "";
+
+    // Get username from Razor ViewData
+    var username = "@ViewData["UserName"]";
     var targetUser = "All"; // Default to public chat
 
     document.getElementById("sendButton").disabled = true;
 
-    // Receive Public Messages
+    // Load messages from localStorage when the page loads
+    document.addEventListener("DOMContentLoaded", function () {
+        var storedMessages = localStorage.getItem("chatMessages");
+        if (storedMessages) {
+            document.getElementById("messagesList").innerHTML = storedMessages;
+        }
+        scrollToBottom(); // Ensure the latest message is visible
+    });
+
+    // Start SignalR Connection
+    connection.start()
+        .then(function () {
+            console.log("Connected to SignalR Hub");
+            document.getElementById("sendButton").disabled = false;
+
+            // Automatically join the chat using the session username
+            connection.invoke("JoinChat", username)
+                .then(function () {
+                    console.log("Successfully joined chat:", username);
+                })
+                .catch(function (err) {
+                    console.error("Error joining chat:", err.toString());
+                });
+
+        })
+        .catch(function (err) {
+            console.error("Connection error:", err.toString());
+        });
+
+    // Handle receiving messages
     connection.on("ReceiveMessage", function (user, message) {
         displayMessage(user, message, false);
     });
 
-    // Receive Private Messages
     connection.on("ReceivePrivateMessage", function (user, message) {
         displayMessage(user, message, true);
     });
 
-    function displayMessage(user, message, isPrivate) {
-        var encodedMsg = `<strong>${user}:</strong> ${message}`;
-        var div = document.createElement("div");
-        div.classList.add("alert", isPrivate ? "alert-warning" : "alert-secondary", "mt-2");
-        div.innerHTML = encodedMsg;
-        document.getElementById("messagesList").appendChild(div);
-    }
-
-    // Update user list and make usernames clickable
+    // Handle updating user list
     connection.on("UpdateUserList", function (users) {
         console.log("User list updated:", users);
         var usersList = document.getElementById("usersList");
@@ -163,17 +185,7 @@
         });
     });
 
-    connection.start()
-        .then(function () {
-            console.log("Connected to SignalR Hub");
-            document.getElementById("sendButton").disabled = false;
-            SetUsername();
-        })
-        .catch(function (err) {
-            console.error("Connection error:", err.toString());
-        });
-
-    // Send message
+    // Handle sending messages
     document.getElementById("sendButton").addEventListener("click", function (event) {
         var message = document.getElementById("message").value;
         if (!message.trim()) return;
@@ -189,21 +201,25 @@
         event.preventDefault();
     });
 
-    // Set username and join chat
-    function SetUsername() {
-        var usernameInput = prompt("Enter your username:");
-        if (!usernameInput) return;
-        username = usernameInput;
+    // Function to display messages
+    function displayMessage(user, message, isPrivate) {
+        var encodedMsg = `<strong>${user}:</strong> ${message}`;
+        var div = document.createElement("div");
+        div.classList.add("alert", isPrivate ? "alert-warning" : "alert-secondary", "mt-2");
+        div.innerHTML = encodedMsg;
+        document.getElementById("messagesList").appendChild(div);
 
-        console.log("Joining chat as:", username);
+        // Save messages to localStorage
+        localStorage.setItem("chatMessages", document.getElementById("messagesList").innerHTML);
 
-        connection.invoke("JoinChat", username)
-            .then(function () {
-                console.log("Successfully joined chat:", username);
-            })
-            .catch(function (err) {
-                console.error("Error joining chat:", err.toString());
-            });
+        // Auto-scroll to the latest message
+        scrollToBottom();
+    }
+
+    // Function to scroll to the latest message
+    function scrollToBottom() {
+        var messageBox = document.getElementById("messagesList");
+        messageBox.scrollTop = messageBox.scrollHeight;
     }
 
     // Toggle between public and private chat
